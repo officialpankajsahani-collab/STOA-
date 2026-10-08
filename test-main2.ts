@@ -1,0 +1,1 @@
+import { Foo } from "./test-enum.ts"; console.log("ENUM:", Foo.A);

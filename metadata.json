@@ -1,0 +1,6 @@
+{
+  "name": "STOA NEXTGEN — संबलपुर ट्रक ओनर्स एसोसिएशन",
+  "description": "संबलपुर ट्रक ओनर्स एसोसिएशन (STOA NEXTGEN) का आधिकारिक लोडिंग प्रबंधन, 15-टू-15 रोटेशन, गेट पास, फ्लीट, लेजर और एआई असिस्टेंट सिस्टम।",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

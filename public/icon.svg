@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <clipPath id="inner-sunburst-clip">
+      <circle cx="250" cy="250" r="162" />
+    </clipPath>
+    <path id="upper-arc-path" d="M 68,250 A 182,182 0 1,1 432,250" fill="none" />
+    <path id="lower-arc-path" d="M 95,280 A 182,182 0 0,0 405,280" fill="none" />
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="250" cy="250" r="248" fill="#1e3a8a" />
+  <circle cx="250" cy="250" r="244" fill="#ffffff" />
+  <circle cx="250" cy="250" r="240" fill="#b91c1c" stroke="#991b1b" stroke-width="2" />
+  <circle cx="250" cy="250" r="166" fill="#1e3a8a" />
+  <circle cx="250" cy="250" r="164" fill="#ffffff" />
+
+  <!-- Sunburst -->
+  <g clip-path="url(#inner-sunburst-clip)">
+    <circle cx="250" cy="250" r="162" fill="#ffffff" />
+    <polygon points="250,250 250.0,70.0 285.1,73.5" fill="#facc15" />
+<polygon points="250,250 318.9,83.7 350.0,100.3" fill="#facc15" />
+<polygon points="250,250 377.3,122.7 399.7,150.0" fill="#facc15" />
+<polygon points="250,250 416.3,181.1 426.5,214.9" fill="#facc15" />
+<polygon points="250,250 430.0,250.0 426.5,285.1" fill="#facc15" />
+<polygon points="250,250 416.3,318.9 399.7,350.0" fill="#facc15" />
+<polygon points="250,250 377.3,377.3 350.0,399.7" fill="#facc15" />
+<polygon points="250,250 318.9,416.3 285.1,426.5" fill="#facc15" />
+<polygon points="250,250 250.0,430.0 214.9,426.5" fill="#facc15" />
+<polygon points="250,250 181.1,416.3 150.0,399.7" fill="#facc15" />
+<polygon points="250,250 122.7,377.3 100.3,350.0" fill="#facc15" />
+<polygon points="250,250 83.7,318.9 73.5,285.1" fill="#facc15" />
+<polygon points="250,250 70.0,250.0 73.5,214.9" fill="#facc15" />
+<polygon points="250,250 83.7,181.1 100.3,150.0" fill="#facc15" />
+<polygon points="250,250 122.7,122.7 150.0,100.3" fill="#facc15" />
+<polygon points="250,250 181.1,83.7 214.9,73.5" fill="#facc15" />
+
+  </g>
+  <circle cx="250" cy="250" r="162" fill="none" stroke="#1e3a8a" stroke-width="4" />
+
+  <!-- Upper Arc Text -->
+  <text fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="2.2" text-anchor="middle">
+    <textPath href="#upper-arc-path" startOffset="50%" text-anchor="middle">
+      SAMBALPUR TRUCK OWNER'S ASSOCIATION
+    </textPath>
+  </text>
+
+  <!-- Lower Arc Text -->
+  <text fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="900" letter-spacing="4.5" text-anchor="middle">
+    <textPath href="#lower-arc-path" startOffset="50%" text-anchor="middle">
+      • SAMBALPUR •
+    </textPath>
+  </text>
+
+  <!-- Truck Center Illustration -->
+  <g transform="translate(250, 255) scale(0.95) translate(-250, -250)">
+    <ellipse cx="252" cy="336" rx="146" ry="14" fill="#0f172a" opacity="0.45" />
+    <!-- Cargo Body -->
+    <path d="M 112,185 C 112,168 128,154 150,152 C 172,150 200,147 240,146 C 285,145 320,148 348,154 C 368,158 376,170 376,186 L 372,210 L 115,208 Z" fill="#5a6048" stroke="#3f4433" stroke-width="3" />
+    <rect x="110" y="206" width="268" height="52" rx="4" fill="#b45309" stroke="#78350f" stroke-width="3" />
+    <!-- Yellow side slats -->
+    <line x1="112" y1="222" x2="376" y2="222" stroke="#facc15" stroke-width="3" />
+    <line x1="112" y1="238" x2="376" y2="238" stroke="#facc15" stroke-width="3" />
+    <!-- Truck Cabin -->
+    <path d="M 320,188 L 362,188 L 388,230 L 388,290 L 318,290 Z" fill="#dc2626" stroke="#991b1b" stroke-width="3" />
+    <rect x="345" y="196" width="36" height="30" rx="3" fill="#38bdf8" stroke="#0284c7" stroke-width="2" />
+    <!-- Wheels -->
+    <circle cx="150" cy="285" r="22" fill="#1e293b" stroke="#0f172a" stroke-width="4" />
+    <circle cx="150" cy="285" r="9" fill="#94a3b8" />
+    <circle cx="210" cy="285" r="22" fill="#1e293b" stroke="#0f172a" stroke-width="4" />
+    <circle cx="210" cy="285" r="9" fill="#94a3b8" />
+    <circle cx="355" cy="285" r="22" fill="#1e293b" stroke="#0f172a" stroke-width="4" />
+    <circle cx="355" cy="285" r="9" fill="#94a3b8" />
+  </g>
+</svg>

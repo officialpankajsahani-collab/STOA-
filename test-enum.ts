@@ -1,0 +1,1 @@
+export enum Foo { A = "A", B = "B" }
